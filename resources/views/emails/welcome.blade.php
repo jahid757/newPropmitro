@@ -52,8 +52,8 @@
                             style="font-size: 35px"
                             class="fas fa-user user_icon"
                         ></i>
-                        <p class="text-uppercase my-1">congratulation</p>
-                        <h2 style="color: #fff">{{$name}}</h2>
+                        <p class="text-uppercase my-1">congratulation updated</p>
+                        <h2 style="color: #fff">{{$name}} is updated</h2>
                         <p>{{$email}}</p>
                     </div>
                 </div>
