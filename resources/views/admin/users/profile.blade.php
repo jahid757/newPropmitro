@@ -161,10 +161,10 @@
                             <small class="text-muted my-2 d-block">Email address: </small>
                             <input type="email" name="email" value="{{$user->email}}" class="form-control" placeholder="Enter Your Email">
                             <small class="text-muted my-2 d-block">Age: </small>
-                            <input type="number" name="age" value="{{$user->age}}" class="form-control" placeholder="Enter Your Email">
+                            <input type="number" name="age" value="{{$user->age}}" class="form-control" placeholder="Enter Your Age">
                             <p>{{Auth::user()->age}}</p>
                             <small class="text-muted my-2 d-block">Mobile: </small>
-                            <input type="number" name="mobile" value="{{$user->mobile}}" class="form-control" placeholder="Enter Your Email">
+                            <input type="number" name="mobile" value="{{$user->mobile}}" class="form-control" placeholder="Enter Your Mobile">
                             <p>{{Auth::user()->mobile}}</p>
 
                             <small class="text-muted d-block my-2">Role: </small>
