@@ -260,7 +260,11 @@ h6, .h6{
 #budgetContent.active,
 #propertyContent.active,
 #areaContent.active,
-#localitisContent.active
+#localitisContent.active,
+#constractionContent.active,
+#furnishedContent.active,
+#purchaseTypeContent.active,
+#approveStatus.active
 {
     display: none;
 }
@@ -284,7 +288,7 @@ h6, .h6{
 #icon6.active,
 #icon7.active,
 #icon8.active,
-#icon9.active,
+#icon9.active
 {
     transform: rotate(360deg);
 }
