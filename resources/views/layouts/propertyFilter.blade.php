@@ -185,7 +185,7 @@
                        <span id="dot" class="dot"></span>
                    </button>
                </div>
-
+{{-- <hr> --}}
                <div class="budget">
                     <div onclick="filterToggle('budgetContent', 'icon1')" class="my-3 cursor-pointer">
                         <div class="d-flex justify-content-between align-items-center">
@@ -198,13 +198,13 @@
                             <select name="minBudget" id="min">
                                 <option class="bdf__optionSel">Min Budget</option><option name="budget_min" class="" data-val="2">5 Lacs</option><option name="budget_min" class="" data-val="3">10 Lacs</option><option name="budget_min" class="" data-val="4">15 Lacs</option><option name="budget_min" class="" data-val="5">20 Lacs</option><option name="budget_min" class="" data-val="6">25 Lacs</option><option name="budget_min" class="" data-val="7">30 Lacs</option><option name="budget_min" class="" data-val="118">35 Lacs</option><option name="budget_min" class="" data-val="8">40 Lacs</option><option name="budget_min" class="" data-val="120">45 Lacs</option><option name="budget_min" class="" data-val="9">50 Lacs</option><option name="budget_min" class="" data-val="122">55 Lacs</option><option name="budget_min" class="" data-val="10">60 Lacs</option><option name="budget_min" class="" data-val="124">65 Lacs</option><option name="budget_min" class="" data-val="125">70 Lacs</option><option name="budget_min" class="" data-val="11">75 Lacs</option><option name="budget_min" class="" data-val="127">80 Lacs</option><option name="budget_min" class="" data-val="128">85 Lacs</option><option name="budget_min" class="" data-val="12">90 Lacs</option><option name="budget_min" class="" data-val="130">95 Lacs</option><option name="budget_min" class="" data-val="13">1 Crore</option><option name="budget_min" class="" data-val="132">1.05 Crores</option><option name="budget_min" class="" data-val="133">1.1 Crores</option><option name="budget_min" class="" data-val="134">1.15 Crores</option><option name="budget_min" class="" data-val="135">1.2 Crores</option><option name="budget_min" class="" data-val="136">1.25 Crores</option><option name="budget_min" class="" data-val="137">1.3 Crores</option><option name="budget_min" class="" data-val="138">1.35 Crores</option><option name="budget_min" class="" data-val="139">1.4 Crores</option><option name="budget_min" class="" data-val="140">1.45 Crores</option><option name="budget_min" class="" data-val="14">1.5 Crores</option><option name="budget_min" class="" data-val="142">1.55 Crores</option><option name="budget_min" class="" data-val="143">1.6 Crores</option><option name="budget_min" class="" data-val="144">1.65 Crores</option><option name="budget_min" class="" data-val="145">1.7 Crores</option><option name="budget_min" class="" data-val="146">1.75 Crores</option><option name="budget_min" class="" data-val="147">1.8 Crores</option><option name="budget_min" class="" data-val="148">1.85 Crores</option><option name="budget_min" class="" data-val="149">1.9 Crores</option><option name="budget_min" class="" data-val="15">2 Crores</option><option name="budget_min" class="" data-val="151">2.1 Crores</option><option name="budget_min" class="" data-val="152">2.2 Crores</option><option name="budget_min" class="" data-val="153">2.3 Crores</option><option name="budget_min" class="" data-val="153">2.3 Crores</option><option name="budget_min" class="" data-val="154">2.4 Crores</option><option name="budget_min" class="" data-val="155">2.5 Crores</option><option name="budget_min" class="" data-val="156">2.6 Crores</option><option name="budget_min" class="" data-val="157">2.7 Crores</option><option name="budget_min" class="" data-val="158">2.8 Crores</option><option name="budget_min" class="" data-val="159">2.9 Crores</option><option name="budget_min" class="" data-val="16">3 Crores</option><option name="budget_min" class="" data-val="160">3.1 Crores</option><option name="budget_min" class="" data-val="161">3.2 Crores</option><option name="budget_min" class="" data-val="162">3.3 Crores</option><option name="budget_min" class="" data-val="163">3.4 Crores</option><option name="budget_min" class="" data-val="164">3.5 Crores</option><option name="budget_min" class="" data-val="165">3.6 Crores</option><option name="budget_min" class="" data-val="166">3.7 Crores</option><option name="budget_min" class="" data-val="167">3.8 Crores</option><option name="budget_min" class="" data-val="168">3.9 Crores</option><option name="budget_min" class="" data-val="169">4 Crores</option><option name="budget_min" class="" data-val="170">4.1 Crores</option><option name="budget_min" class="" data-val="171">4.2 Crores</option><option name="budget_min" class="" data-val="172">4.3 Crores</option><option name="budget_min" class="" data-val="173">4.4 Crores</option><option name="budget_min" class="" data-val="174">4.5 Crores</option><option name="budget_min" class="" data-val="175">4.6 Crores</option><option name="budget_min" class="" data-val="176">4.7 Crores</option><option name="budget_min" class="" data-val="177">4.8 Crores</option><option name="budget_min" class="" data-val="178">4.9 Crores</option><option name="budget_min" class="" data-val="17">5 Crores</option><option name="budget_min" class="" data-val="179">5.25 Crores</option><option name="budget_min" class="" data-val="180">5.5 Crores</option><option name="budget_min" class="" data-val="181">5.75 Crores</option><option name="budget_min" class="" data-val="182">6 Crores</option><option name="budget_min" class="" data-val="183">6.25 Crores</option><option name="budget_min" class="" data-val="184">6.5 Crores</option><option name="budget_min" class="" data-val="185">6.75 Crores</option><option name="budget_min" class="" data-val="186">7 Crores</option><option name="budget_min" class="" data-val="187">7.25 Crores</option><option name="budget_min" class="" data-val="188">7.5 Crores</option><option name="budget_min" class="" data-val="189">7.75 Crores</option><option name="budget_min" class="" data-val="190">8 Crores</option><option name="budget_min" class="" data-val="191">8.25 Crores</option><option name="budget_min" class="" data-val="192">8.5 Crores</option><option name="budget_min" class="" data-val="193">8.75 Crores</option><option name="budget_min" class="" data-val="194">9 Crores</option><option name="budget_min" class="" data-val="195">9.25 Crores</option><option name="budget_min" class="" data-val="196">9.5 Crores</option><option name="budget_min" class="" data-val="197">9.75 Crores</option><option name="budget_min" class="" data-val="18">10 Crores</option><option name="budget_min" class="" data-val="19">20 Crores</option><option name="budget_min" class="" data-val="20">30 Crores</option><option name="budget_min" class="" data-val="21">40 Crores</option><option name="budget_min" class="" data-val="22">50 Crores</option><option name="budget_min" class="" data-val="23">60 Crores</option><option name="budget_min" class="" data-val="24">70 Crores</option><option name="budget_min" class="" data-val="25">80 Crores</option><option name="budget_min" class="" data-val="26">90 Crores</option><option name="budget_min" class="" data-val="27">100 Crores</option><option name="budget_min" class="" data-val="28">100+ Crores</option>
                             </select>
-                            <select name="minBudget" id="min">
+                            <select name="minBudget" id="max">
                                 <option class="bdf__optionSel">Max Budget</option><option name="budget_max" class="" data-val="2">5 Lacs</option><option name="budget_max" class="" data-val="3">10 Lacs</option><option name="budget_max" class="" data-val="4">15 Lacs</option><option name="budget_max" class="" data-val="5">20 Lacs</option><option name="budget_max" class="" data-val="6">25 Lacs</option><option name="budget_max" class="" data-val="7">30 Lacs</option><option name="budget_max" class="" data-val="118">35 Lacs</option><option name="budget_max" class="" data-val="8">40 Lacs</option><option name="budget_max" class="" data-val="120">45 Lacs</option><option name="budget_max" class="" data-val="9">50 Lacs</option><option name="budget_max" class="" data-val="122">55 Lacs</option><option name="budget_max" class="" data-val="10">60 Lacs</option><option name="budget_max" class="" data-val="124">65 Lacs</option><option name="budget_max" class="" data-val="125">70 Lacs</option><option name="budget_max" class="" data-val="11">75 Lacs</option><option name="budget_max" class="" data-val="127">80 Lacs</option><option name="budget_max" class="" data-val="128">85 Lacs</option><option name="budget_max" class="" data-val="12">90 Lacs</option><option name="budget_max" class="" data-val="130">95 Lacs</option><option name="budget_max" class="" data-val="13">1 Crore</option><option name="budget_max" class="" data-val="132">1.05 Crores</option><option name="budget_max" class="" data-val="133">1.1 Crores</option><option name="budget_max" class="" data-val="134">1.15 Crores</option><option name="budget_max" class="" data-val="135">1.2 Crores</option><option name="budget_max" class="" data-val="136">1.25 Crores</option><option name="budget_max" class="" data-val="137">1.3 Crores</option><option name="budget_max" class="" data-val="138">1.35 Crores</option><option name="budget_max" class="" data-val="139">1.4 Crores</option><option name="budget_max" class="" data-val="140">1.45 Crores</option><option name="budget_max" class="" data-val="14">1.5 Crores</option><option name="budget_max" class="" data-val="142">1.55 Crores</option><option name="budget_max" class="" data-val="143">1.6 Crores</option><option name="budget_max" class="" data-val="144">1.65 Crores</option><option name="budget_max" class="" data-val="145">1.7 Crores</option><option name="budget_max" class="" data-val="146">1.75 Crores</option><option name="budget_max" class="" data-val="147">1.8 Crores</option><option name="budget_max" class="" data-val="148">1.85 Crores</option><option name="budget_max" class="" data-val="149">1.9 Crores</option><option name="budget_max" class="" data-val="15">2 Crores</option><option name="budget_max" class="" data-val="151">2.1 Crores</option><option name="budget_max" class="" data-val="152">2.2 Crores</option><option name="budget_max" class="" data-val="153">2.3 Crores</option><option name="budget_max" class="" data-val="153">2.3 Crores</option><option name="budget_max" class="" data-val="154">2.4 Crores</option><option name="budget_max" class="" data-val="155">2.5 Crores</option><option name="budget_max" class="" data-val="156">2.6 Crores</option><option name="budget_max" class="" data-val="157">2.7 Crores</option><option name="budget_max" class="" data-val="158">2.8 Crores</option><option name="budget_max" class="" data-val="159">2.9 Crores</option><option name="budget_max" class="" data-val="16">3 Crores</option><option name="budget_max" class="" data-val="160">3.1 Crores</option><option name="budget_max" class="" data-val="161">3.2 Crores</option><option name="budget_max" class="" data-val="162">3.3 Crores</option><option name="budget_max" class="" data-val="163">3.4 Crores</option><option name="budget_max" class="" data-val="164">3.5 Crores</option><option name="budget_max" class="" data-val="165">3.6 Crores</option><option name="budget_max" class="" data-val="166">3.7 Crores</option><option name="budget_max" class="" data-val="167">3.8 Crores</option><option name="budget_max" class="" data-val="168">3.9 Crores</option><option name="budget_max" class="" data-val="169">4 Crores</option><option name="budget_max" class="" data-val="170">4.1 Crores</option><option name="budget_max" class="" data-val="171">4.2 Crores</option><option name="budget_max" class="" data-val="172">4.3 Crores</option><option name="budget_max" class="" data-val="173">4.4 Crores</option><option name="budget_max" class="" data-val="174">4.5 Crores</option><option name="budget_max" class="" data-val="175">4.6 Crores</option><option name="budget_max" class="" data-val="176">4.7 Crores</option><option name="budget_max" class="" data-val="177">4.8 Crores</option><option name="budget_max" class="" data-val="178">4.9 Crores</option><option name="budget_max" class="" data-val="17">5 Crores</option><option name="budget_max" class="" data-val="179">5.25 Crores</option><option name="budget_max" class="" data-val="180">5.5 Crores</option><option name="budget_max" class="" data-val="181">5.75 Crores</option><option name="budget_max" class="" data-val="182">6 Crores</option><option name="budget_max" class="" data-val="183">6.25 Crores</option><option name="budget_max" class="" data-val="184">6.5 Crores</option><option name="budget_max" class="" data-val="185">6.75 Crores</option><option name="budget_max" class="" data-val="186">7 Crores</option><option name="budget_max" class="" data-val="187">7.25 Crores</option><option name="budget_max" class="" data-val="188">7.5 Crores</option><option name="budget_max" class="" data-val="189">7.75 Crores</option><option name="budget_max" class="" data-val="190">8 Crores</option><option name="budget_max" class="" data-val="191">8.25 Crores</option><option name="budget_max" class="" data-val="192">8.5 Crores</option><option name="budget_max" class="" data-val="193">8.75 Crores</option><option name="budget_max" class="" data-val="194">9 Crores</option><option name="budget_max" class="" data-val="195">9.25 Crores</option><option name="budget_max" class="" data-val="196">9.5 Crores</option><option name="budget_max" class="" data-val="197">9.75 Crores</option><option name="budget_max" class="" data-val="18">10 Crores</option><option name="budget_max" class="" data-val="19">20 Crores</option><option name="budget_max" class="" data-val="20">30 Crores</option><option name="budget_max" class="" data-val="21">40 Crores</option><option name="budget_max" class="" data-val="22">50 Crores</option><option name="budget_max" class="" data-val="23">60 Crores</option><option name="budget_max" class="" data-val="24">70 Crores</option><option name="budget_max" class="" data-val="25">80 Crores</option><option name="budget_max" class="" data-val="26">90 Crores</option><option name="budget_max" class="" data-val="27">100 Crores</option><option name="budget_max" class="" data-val="28">100+ Crores</option>
                             </select>
                         {{-- </div> --}}
                     </div>
                </div>
-
+<hr>
                <div class="bedroom">
                 <div onclick="filterToggle('bedroom_content', 'icon2')" class="my-3 cursor-pointer">
                     <div class="d-flex justify-content-between align-items-center">
@@ -283,7 +283,7 @@
                     </div>
                 </div>
                </div>
-
+<hr>
                <div class="propertyType">
                 <div onclick="filterToggle('propertyContent','icon3')" class="my-3 cursor-pointer">
                     <div class="d-flex justify-content-between align-items-center">
@@ -321,6 +321,134 @@
                         <p>Serviced Apartments</p>
                     </div>
                 </div>
+               </div>
+<hr>
+               <div class="area">
+                <div onclick="filterToggle('areaContent','icon4')" class="my-3 cursor-pointer">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h6 class="m-0">Area <small></small></h6>
+                        <i id="icon4" class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div id="areaContent">
+                    <select name="minArea" id="minArea">
+                        <option class="bdf__optionSel">Min Area</option><option name="area_min" class="" data-val="100">100</option><option name="area_min" class="" data-val="200">200</option><option name="area_min" class="" data-val="300">300</option><option name="area_min" class="" data-val="400">400</option><option name="area_min" class="" data-val="500">500</option><option name="area_min" class="" data-val="600">600</option><option name="area_min" class="" data-val="700">700</option><option name="area_min" class="" data-val="800">800</option><option name="area_min" class="" data-val="900">900</option><option name="area_min" class="" data-val="1000">1000</option><option name="area_min" class="" data-val="1100">1100</option><option name="area_min" class="" data-val="1200">1200</option><option name="area_min" class="" data-val="1300">1300</option><option name="area_min" class="" data-val="1400">1400</option><option name="area_min" class="" data-val="1500">1500</option><option name="area_min" class="" data-val="1600">1600</option><option name="area_min" class="" data-val="1700">1700</option><option name="area_min" class="" data-val="1800">1800</option><option name="area_min" class="" data-val="1900">1900</option><option name="area_min" class="" data-val="2000">2000</option><option name="area_min" class="" data-val="2100">2100</option><option name="area_min" class="" data-val="2200">2200</option><option name="area_min" class="" data-val="2300">2300</option><option name="area_min" class="" data-val="2400">2400</option><option name="area_min" class="" data-val="2500">2500</option><option name="area_min" class="" data-val="2600">2600</option><option name="area_min" class="" data-val="2700">2700</option><option name="area_min" class="" data-val="2800">2800</option><option name="area_min" class="" data-val="2900">2900</option><option name="area_min" class="" data-val="3000">3000</option><option name="area_min" class="" data-val="3100">3100</option><option name="area_min" class="" data-val="3200">3200</option><option name="area_min" class="" data-val="3300">3300</option><option name="area_min" class="" data-val="3400">3400</option><option name="area_min" class="" data-val="3500">3500</option><option name="area_min" class="" data-val="3600">3600</option><option name="area_min" class="" data-val="3700">3700</option><option name="area_min" class="" data-val="3800">3800</option><option name="area_min" class="" data-val="3900">3900</option><option name="area_min" class="" data-val="4000">4000</option>
+                    </select>
+                    <select name="maxArea" id="amaxArea">
+                        <option class="bdf__optionSel">Min Area</option><option name="area_min" class="" data-val="200">200</option><option name="area_min" class="" data-val="300">300</option><option name="area_min" class="" data-val="400">400</option><option name="area_min" class="" data-val="500">500</option><option name="area_min" class="" data-val="600">600</option><option name="area_min" class="" data-val="700">700</option><option name="area_min" class="" data-val="800">800</option><option name="area_min" class="" data-val="900">900</option><option name="area_min" class="" data-val="1000">1000</option><option name="area_min" class="" data-val="1100">1100</option><option name="area_min" class="" data-val="1200">1200</option><option name="area_min" class="" data-val="1300">1300</option><option name="area_min" class="" data-val="1400">1400</option><option name="area_min" class="" data-val="1500">1500</option><option name="area_min" class="" data-val="1600">1600</option><option name="area_min" class="" data-val="1700">1700</option><option name="area_min" class="" data-val="1800">1800</option><option name="area_min" class="" data-val="1900">1900</option><option name="area_min" class="" data-val="2000">2000</option><option name="area_min" class="" data-val="2100">2100</option><option name="area_min" class="" data-val="2200">2200</option><option name="area_min" class="" data-val="2300">2300</option><option name="area_min" class="" data-val="2400">2400</option><option name="area_min" class="" data-val="2500">2500</option><option name="area_min" class="" data-val="2600">2600</option><option name="area_min" class="" data-val="2700">2700</option><option name="area_min" class="" data-val="2800">2800</option><option name="area_min" class="" data-val="2900">2900</option><option name="area_min" class="" data-val="3000">3000</option><option name="area_min" class="" data-val="3100">3100</option><option name="area_min" class="" data-val="3200">3200</option><option name="area_min" class="" data-val="3300">3300</option><option name="area_min" class="" data-val="3400">3400</option><option name="area_min" class="" data-val="3500">3500</option><option name="area_min" class="" data-val="3600">3600</option><option name="area_min" class="" data-val="3700">3700</option><option name="area_min" class="" data-val="3800">3800</option><option name="area_min" class="" data-val="3900">3900</option><option name="area_min" class="" data-val="4000">4000</option>
+                    </select>
+                </div>
+               </div>
+<hr>
+               <div class="localitis">
+                    <div onclick="filterToggle('localitisContent','icon5')" class="my-3 cursor-pointer">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="m-0">Localities</h6>
+                            <i id="icon5" class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div id="localitisContent">
+                        <div class="d-flex align-items-center my-2">
+                            <input type="checkbox" name="c1" id="c1">
+                            <label for="c1">Golf Course Ext. Road</label>
+                        </div>
+                        <div class="d-flex align-items-center my-2">
+                            <input type="checkbox" name="c2" id="c2">
+                            <label for="c2">New Gurgaon</label>
+                        </div>
+                        <div class="d-flex align-items-center my-2">
+                            <input type="checkbox" name="c3" id="c3">
+                            <label for="c3">Dwarka Expressway Gurgaon</label>
+                        </div>
+                        <div class="d-flex align-items-center my-2">
+                            <input type="checkbox" name="c4" id="c4">
+                            <label for="c4">Sohna Road</label>
+                        </div>
+                        <div class="d-flex align-items-center my-2">
+                            <input type="checkbox" name="c5" id="c5">
+                            <label for="c5">Sector-65 Gurgaon</label>
+                        </div>
+                    </div>
+               </div>
+<hr>
+               <div class="constraction">
+                    <div onclick="filterToggle('constractionContent','icon6')" class="my-3 cursor-pointer">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="m-0">Construction Status</h6>
+                            <i id="icon6" class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div id="constractionContent">
+                        <div class="wrap d-flex align-items-center my-2">
+                            <i class="fas fa-plus"></i>
+                            <p>Ready to move</p>
+                        </div>
+                        <div class="wrap d-flex align-items-center my-2">
+                            <i class="fas fa-plus"></i>
+                            <p>Under Construction</p>
+                        </div>
+                    </div>
+               </div>
+<hr>
+               <div class="furnishedStatus">
+                    <div onclick="filterToggle('furnishedContent','icon7')" class="my-3 cursor-pointer">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="m-0">Construction Status</h6>
+                            <i id="icon7" class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div id="furnishedContent">
+                        <div class="wrap d-flex align-items-center my-2">
+                            <i class="fas fa-plus"></i>
+                            <p>Semifurnished</p>
+                        </div>
+                        <div class="wrap d-flex align-items-center my-2">
+                            <i class="fas fa-plus"></i>
+                            <p>Unfurnished</p>
+                        </div>
+                        <div class="wrap d-flex align-items-center my-2">
+                            <i class="fas fa-plus"></i>
+                            <p>Furnished</p>
+                        </div>
+                    </div>
+               </div>
+<hr>
+               <div class="purchaseType">
+                    <div onclick="filterToggle('purchaseTypeContent','icon8')" class="my-3 cursor-pointer">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="m-0">Purchase type</h6>
+                            <i id="icon8" class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div id="purchaseTypeContent">
+                        <div class="wrap d-flex align-items-center my-2">
+                            <i class="fas fa-plus"></i>
+                            <p>Resale</p>
+                        </div>
+                        <div class="wrap d-flex align-items-center my-2">
+                            <i class="fas fa-plus"></i>
+                            <p>New Booking</p>
+                        </div>
+                    </div>
+               </div>
+<hr>
+               <div class="approveStatus">
+                    <div onclick="filterToggle('approveStatusContent','icon9')" class="my-3 cursor-pointer">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="m-0">RERA Approved</h6>
+                            <i id="icon9" class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div id="approveStatusContent">
+                        <div class="wrap d-flex align-items-center my-2">
+                            <i class="fas fa-plus"></i>
+                            <p>RERA approved properties</p>
+                        </div>
+                        <div class="wrap d-flex align-items-center my-2">
+                            <i class="fas fa-plus"></i>
+                            <p>RERA registered dealers</p>
+                        </div>
+                    </div>
                </div>
 
             </div>

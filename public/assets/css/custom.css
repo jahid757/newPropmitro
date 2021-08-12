@@ -258,16 +258,48 @@ h6, .h6{
 
 #bedroom_content.active,
 #budgetContent.active,
-#propertyContent.active{
+#propertyContent.active,
+#areaContent.active,
+#localitisContent.active
+{
     display: none;
 }
 #icon1,
 #icon2,
-#icon3{
+#icon3,
+#icon4,
+#icon5,
+#icon6,
+#icon7,
+#icon8,
+#icon9
+{
     transform: rotate(180deg);
 }
 #icon1.active,
-#icon2.active
-#icon3.active{
+#icon2.active,
+#icon3.active,
+#icon4.active,
+#icon5.active,
+#icon6.active,
+#icon7.active,
+#icon8.active,
+#icon9.active,
+{
     transform: rotate(360deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+#localitisContent label{
+    margin-left: 5px;
+    margin-bottom: 0;
 }
