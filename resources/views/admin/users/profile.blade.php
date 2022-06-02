@@ -68,7 +68,7 @@
 
                             </div>
                             <div class="col-md-9 mb-2 pl-4">
-                                <h4 class="mb-1"><strong>{{$name}}</strong> Last Name</h4>
+                                <h4 class="mb-1"><strong>{{$name}}</strong> {{-- Last Name --}}</h4>
                                 <p class="mb-2 author_info"><small>Web Developer</small></p>
 
                                 <p class="mb-0 author_info"><small>795 Folsom Ave, Suite 600</small></p>
