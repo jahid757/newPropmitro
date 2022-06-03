@@ -173,6 +173,10 @@ p{
     font-size: 20px;
     margin: 0 10px;
 }
+.dropdown-menu.show{
+    top:40px !important;
+    border-radius: 5px;
+}
 #image,#imagelogo{
     margin-left: 18px !important;
 }
@@ -293,9 +297,30 @@ h6, .h6{
     transform: rotate(360deg);
 }
 
-
-
-
+.custom-flex{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    position: relative
+}
+.custom-flex .form-group{
+    margin-bottom: 0;
+}
+.custom-flex .form-group input{
+display:none;
+}
+/* .custom-flex .form-group label{
+    cursor:pointer;
+} */
+.custom-flex .form-group label i{
+    cursor:pointer;
+    font-size: 32px;
+    text-align: center;
+    position: absolute;
+    top: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 
 

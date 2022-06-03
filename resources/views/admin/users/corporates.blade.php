@@ -7,7 +7,7 @@
     <div class="block-header">
         <div class="row">
             <div class="col-lg-5 col-md-5 col-sm-12">
-                <h2>Customers
+                <h2>Corporates
                 <small>Welcome to {{$comp}}</small>
                 </h2>
             </div>
@@ -25,7 +25,7 @@
                 </button>
                 <ul class="breadcrumb float-md-right">
                     <li class="breadcrumb-item"><a href="/dashboard"><i class="zmdi zmdi-home"></i> {{$comp}}</a></li>
-                    <li class="breadcrumb-item active">Customers</li>
+                    <li class="breadcrumb-item active">Corporates</li>
                 </ul>
             </div>
         </div>
@@ -60,11 +60,11 @@
                             </div>
 
                             <div class="col-sm-3">
-                                <label class="d-flex align-items-center" for="gender"><span class="red ml-3">*</span> <span>Owners</span></label>
-                                <select name="owner" class="form-control show-tick">
-                                    <option value="">-- Owners --</option>
-                                    <option value="individual">Individual</option>
-                                    <option value="corporate">Corporate</option>
+                                <label class="d-flex align-items-center" for="gender"><span class="red ml-3">*</span> <span>Role</span></label>
+                                <select name="gender" class="form-control show-tick">
+                                    <option value="">-- Role --</option>
+                                    <option value="admin">Admin</option>
+                                    <option value="representative">Representative</option>
                                 </select>
                             </div>
                             <div class="col-sm-3">
@@ -73,49 +73,54 @@
                                     <input type="email" name="email" class="form-control" placeholder="Enter Your Email">
                                 </div>
                             </div>
+                            <div class="col-sm-3">
+                                <div class="form-group">
+                                    <label class="d-flex align-items-center" for="email"><span class="red ml-3">*</span> <span>Address</span></label>
+                                    <input type="email" name="email" class="form-control" placeholder="Enter Your Address">
+                                </div>
+                            </div>
                         </div>
                         <h6 class="mt-4">Aditional Information</h6>
                         <div class="row clearfix">
                             <div class="col-md-3 col-sm-6">
                                 <div class="form-group">
-                                    <label class="d-flex align-items-center" for="company"><span>Address</span></label>
-                                    <input type="text" name="address" class="form-control" placeholder="Address" id="inputCompany" value="">
+                                    <label class="d-flex align-items-center" for="company"><span>GST</span></label>
+                                    <input type="text" name="gst" class="form-control" placeholder="GST"  value="">
                                 </div>
                             </div>
 
                             <div class="col-sm-3">
                                 <div class="form-group">
-                                    <label class="d-flex align-items-center" for="flyer"><span>Frequent Flyer Number</span></label>
-                                    <input type="text" name="flayer" class="form-control" placeholder="Frequent Flyer Number">
+                                    <label class="d-flex align-items-center" for="gender"><span>Agreement Status</span></label>
+                                <select name="agreement" class="form-control show-tick p-0">
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
                                 </div>
                             </div>
 
+
                             <div class="col-md-3 col-sm-6 custom-flex">
                                 <div class="form-group">
-                                    <label class="d-flex align-items-center" for="passport"><span>Passport / ID Copy</span></label>
-                                    <label class="d-flex align-items-center" for="passport"><span><i class="zmdi zmdi-cloud-upload"></i></span></label>
-                                    <input id="passport" type="file" name="passport" class="form-control">
+                                    <label class="d-flex align-items-center" for="agreement"><span>Agreement copy</span></label>
+                                    <label class="d-flex align-items-center" for="agreement"><span><i class="zmdi zmdi-cloud-upload"></i></span></label>
+                                    <input id="agreement" type="file" name="agreement" class="form-control">
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <div class="form-group">
-                                    <label class="d-flex align-items-center" for="gender"><span>Room Preference</span></label>
+                                    <label class="d-flex align-items-center" for="gender"><span>Credit</span></label>
                                 <select name="gender" class="form-control show-tick pt-0 pl-0">
                                     {{-- <option value="">-- Gender --</option> --}}
-                                    <option value="smoking">Smoking</option>
-                                    <option value="nonSmoking">Non Smoking</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
                                 </select>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <div class="form-group">
-                                    <label class="d-flex align-items-center" for="gender"><span>Seat Preference</span></label>
-                                <select name="gender" class="form-control show-tick pt-0 pl-0">
-                                    {{-- <option value="">-- Gender --</option> --}}
-                                    <option value="window">Window</option>
-                                    <option value="middle">Middle</option>
-                                    <option value="aisle">Aisle</option>
-                                </select>
+                                    <label class="d-flex align-items-center" for="company"><span>Credit Period</span></label>
+                                    <input type="text" name="creditPeriod" class="form-control" placeholder="Credit Period"  value="">
                                 </div>
                             </div>
 

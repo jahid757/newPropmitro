@@ -26,12 +26,12 @@
 
 <!-- Custom Css -->
 
-<link rel="stylesheet" href="{{URL::asset('assets/css/main.css')}}">
 <link rel="stylesheet" href="{{URL::asset('assets/css/custom.css')}}">
+<link rel="stylesheet" href="{{URL::asset('assets/css/main.css')}}">
 
 <link rel="stylesheet" href="{{URL::asset('assets/css/color_skins.css')}}">
 <style type="text/css">
-  
+
   .stretched-link::after {
     position: absolute;
     top: 0;
@@ -65,7 +65,7 @@
 <div class="page-loader-wrapper">
     <div class="loader">
         <div class="m-t-30"><img class="zmdi-hc-spin" src="{{URL::asset('assets/images/logo.svg')}}" width="48" height="48" alt="Oreo"></div>
-        <p>Please wait...</p>        
+        <p>Please wait...</p>
     </div>
 </div>
 <!-- Overlay For Sidebars -->
@@ -96,7 +96,7 @@
                                     <img class="media-object w60" src="../assets/images/image-gallery/1.jpg" alt="">
                                     <div class="media-body">
                                         <span class="name">Sophia <span class="time">For Sale</span></span>
-                                        <span class="message">Relaxing Apartment</span>                                        
+                                        <span class="message">Relaxing Apartment</span>
                                     </div>
                                 </div>
                             </a>
@@ -107,7 +107,7 @@
                                     <img class="media-object w60" src="../assets/images/image-gallery/2.jpg" alt="">
                                     <div class="media-body">
                                         <span class="name">Sophia <span class="time">For Rent</span></span>
-                                        <span class="message">Co-op Apartment in Bay Terrace</span>                                        
+                                        <span class="message">Co-op Apartment in Bay Terrace</span>
                                     </div>
                                 </div>
                             </a>
@@ -118,7 +118,7 @@
                                     <img class="media-object w60" src="../assets/images/image-gallery/3.jpg" alt="">
                                     <div class="media-body">
                                         <span class="name">Isabella <span class="time">For Rent</span></span>
-                                        <span class="message">A must see Villa on Chicago Ave</span>                                        
+                                        <span class="message">A must see Villa on Chicago Ave</span>
                                     </div>
                                 </div>
                             </a>
@@ -129,7 +129,7 @@
                                     <img class="media-object w60" src="../assets/images/image-gallery/4.jpg" alt="">
                                     <div class="media-body">
                                         <span class="name">Alexander <span class="time">For Sale</span></span>
-                                        <span class="message">5 Room Apartment Special Deal</span>                                        
+                                        <span class="message">5 Room Apartment Special Deal</span>
                                     </div>
                                 </div>
                             </a>
@@ -140,19 +140,19 @@
                                     <img class="media-object w60" src="../assets/images/image-gallery/5.jpg" alt="">
                                     <div class="media-body">
                                         <span class="name">Grayson <span class="time">For Rent</span></span>
-                                        <span class="message">Real House Luxury Villa</span>                                        
+                                        <span class="message">Real House Luxury Villa</span>
                                     </div>
                                 </div>
                             </a>
-                        </li>                        
+                        </li>
                     </ul>
                 </li>
                 <li class="footer"> <a href="javascript:void(0);">View All</a> </li>
             </ul>
-        </li>        
+        </li>
         <li class="hidden-sm-down">
-            
-        </li>        
+
+        </li>
         <li class="float-right">
             <a href="{{ route('logout') }}" onclick="event.preventDefault();
             document.getElementById('logout-form').submit();"><i class="zmdi zmdi-power"></i></a>
@@ -184,11 +184,11 @@
                             </div>
                             <a title="facebook" href="{{$facebook}}" target="_blank"> <i class="zmdi zmdi-facebook"></i></a>
                             <a title="twitter" href="{{$twitter}}"><i class="zmdi zmdi-twitter"></i></a>
-                            <a title="instagram" href="{{$insta}}"><i class="zmdi zmdi-instagram"></i></a>                            
+                            <a title="instagram" href="{{$insta}}"><i class="zmdi zmdi-instagram"></i></a>
                         </div>
                     </li>
                     <li class="header">MAIN</li>
-                    <li class="active open"><a href="/dashboard"><i class="zmdi zmdi-home"></i><span>Dashboard</span></a></li>                    
+                    <li class="active open"><a href="/dashboard"><i class="zmdi zmdi-home"></i><span>Dashboard</span></a></li>
                     <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-city"></i><span>Property</span></a>
                         <ul class="ml-menu">
                             <li><a href="property-list.html">Property List</a></li>
@@ -202,7 +202,7 @@
                         <ul class="ml-menu">
                             <li><a href="apartment.html">Apartment</a></li>
                             <li><a href="office.html">Office</a></li>
-                            <li><a href="shop.html">Shop</a></li>                        
+                            <li><a href="shop.html">Shop</a></li>
                             <li><a href="villa.html">Villa</a></li>
                         </ul>
                     </li>
@@ -235,23 +235,23 @@
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-swap-alt"></i><span>User Interface (UI)</span></a>
                         <ul class="ml-menu">
-                            <li><a href="ui_kit.html">UI KIT</a></li>                    
-                            <li><a href="alerts.html">Alerts</a></li>                    
+                            <li><a href="ui_kit.html">UI KIT</a></li>
+                            <li><a href="alerts.html">Alerts</a></li>
                             <li><a href="collapse.html">Collapse</a></li>
                             <li><a href="colors.html">Colors</a></li>
                             <li><a href="dialogs.html">Dialogs</a></li>
-                            <li><a href="icons.html">Icons</a></li>                    
+                            <li><a href="icons.html">Icons</a></li>
                             <li><a href="list-group.html">List Group</a></li>
                             <li><a href="media-object.html">Media Object</a></li>
                             <li><a href="modals.html">Modals</a></li>
-                            <li><a href="notifications.html">Notifications</a></li>                    
+                            <li><a href="notifications.html">Notifications</a></li>
                             <li><a href="progressbars.html">Progress Bars</a></li>
                             <li><a href="range-sliders.html">Range Sliders</a></li>
                             <li><a href="sortable-nestable.html">Sortable & Nestable</a></li>
                             <li><a href="tabs.html">Tabs</a></li>
                             <li><a href="waves.html">Waves</a></li>
                         </ul>
-                    </li>                    
+                    </li>
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-assignment"></i><span>Forms</span></a>
                         <ul class="ml-menu">
@@ -266,13 +266,13 @@
                     </li>
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-grid"></i><span>Tables</span></a>
-                        <ul class="ml-menu">                        
+                        <ul class="ml-menu">
                             <li><a href="normal-tables.html">Normal Tables</a></li>
                             <li><a href="jquery-datatable.html">Jquery Datatables</a></li>
                             <li><a href="editable-table.html">Editable Tables</a></li>
                             <li><a href="table-color.html">Tables Color</a></li>
                         </ul>
-                    </li>            
+                    </li>
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-chart"></i><span>Charts</span> </a>
                         <ul class="ml-menu">
@@ -361,7 +361,7 @@
                                 <div class="col-4">
                                     <h6 class="mb-1">234</h6>
                                     <small>Clients</small>
-                                </div>                            
+                                </div>
                             </div>
                         </div>
                     </li>
@@ -391,12 +391,12 @@
                                     <div class="progress-bar l-amber" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%"> <span class="sr-only">32% Complete</span> </div>
                                 </div>
                             </li>
-                        </ul>                        
+                        </ul>
                     </li>
                 </ul>
             </div>
         </div>
-    </div>    
+    </div>
 </aside>
 
 <!-- Right Sidebar -->
@@ -418,7 +418,7 @@
                         <li data-theme="green"><div class="green"></div></li>
                         <li data-theme="orange"><div class="orange"></div></li>
                         <li data-theme="blush"><div class="blush"></div></li>
-                    </ul>                    
+                    </ul>
                 </div>
                 <div class="card theme-light-dark">
                     <h6>Left Menu</h6>
@@ -445,7 +445,7 @@
                             <div class="checkbox">
                                 <input id="checkbox3" type="checkbox" checked="">
                                 <label for="checkbox3">Notifications</label>
-                            </div>                        
+                            </div>
                         </li>
                         <li>
                             <div class="checkbox">
@@ -475,7 +475,7 @@
                 <div class="card">
                     <h6>Information Summary</h6>
                     <div class="row m-b-20">
-                        <div class="col-7">                            
+                        <div class="col-7">
                             <small class="displayblock">MEMORY USAGE</small>
                             <h5 class="m-b-0 h6">512</h5>
                         </div>
@@ -484,7 +484,7 @@
                         </div>
                     </div>
                     <div class="row m-b-20">
-                        <div class="col-7">                            
+                        <div class="col-7">
                             <small class="displayblock">CPU USAGE</small>
                             <h5 class="m-b-0 h6">90%</h5>
                         </div>
@@ -493,7 +493,7 @@
                         </div>
                     </div>
                     <div class="row m-b-20">
-                        <div class="col-7">                            
+                        <div class="col-7">
                             <small class="displayblock">DAILY TRAFFIC</small>
                             <h5 class="m-b-0 h6">25 142</h5>
                         </div>
@@ -502,7 +502,7 @@
                         </div>
                     </div>
                     <div class="row m-b-40">
-                        <div class="col-7">                            
+                        <div class="col-7">
                             <small class="displayblock">DISK USAGE</small>
                             <h5 class="m-b-0 h6">60.10%</h5>
                         </div>
@@ -512,7 +512,7 @@
                     </div>
                 </div>
             </div>
-        </div>       
+        </div>
         <div class="tab-pane right_chat stretchLeft" id="chat">
             <div class="slim_scroll">
                 <div class="card">
@@ -536,7 +536,7 @@
                                         <span class="badge badge-outline status"></span>
                                     </div>
                                 </div>
-                            </a>                            
+                            </a>
                         </li>
                         <li class="online">
                             <a href="javascript:void(0);">
@@ -548,7 +548,7 @@
                                         <span class="badge badge-outline status"></span>
                                     </div>
                                 </div>
-                            </a>                            
+                            </a>
                         </li>
                         <li class="offline">
                             <a href="javascript:void(0);">
@@ -560,7 +560,7 @@
                                         <span class="badge badge-outline status"></span>
                                     </div>
                                 </div>
-                            </a>                            
+                            </a>
                         </li>
                         <li class="me">
                             <a href="javascript:void(0);">
@@ -572,7 +572,7 @@
                                         <span class="badge badge-outline status"></span>
                                     </div>
                                 </div>
-                            </a>                            
+                            </a>
                         </li>
                         <li class="online">
                             <a href="javascript:void(0);">
@@ -584,8 +584,8 @@
                                         <span class="badge badge-outline status"></span>
                                     </div>
                                 </div>
-                            </a>                            
-                        </li>                        
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="card">
@@ -730,7 +730,7 @@
                                 <h5 class="m-b-0">New Email</h5>
                                 <small>45min ago <a href="javascript:void(0);" class="text-info">Fidel Tonn</a>.</small>
                             </div>
-                        </div>                        
+                        </div>
                     </div>
                 </div>
                 <div class="card">
@@ -738,58 +738,58 @@
                     <ul class="list-unstyled activity">
                         <li>
                             <a href="javascript:void(0)">
-                                <i class="zmdi zmdi-collection-pdf l-blush"></i>                    
+                                <i class="zmdi zmdi-collection-pdf l-blush"></i>
                                 <div class="info">
-                                    <h4>info_258.pdf</h4>                    
+                                    <h4>info_258.pdf</h4>
                                     <small>2MB</small>
                                 </div>
                             </a>
                         </li>
                         <li>
                             <a href="javascript:void(0)">
-                                <i class="zmdi zmdi-collection-text l-amber"></i>                    
+                                <i class="zmdi zmdi-collection-text l-amber"></i>
                                 <div class="info">
-                                    <h4>newdoc_214.doc</h4>                    
+                                    <h4>newdoc_214.doc</h4>
                                     <small>900KB</small>
                                 </div>
                             </a>
                         </li>
                         <li>
                             <a href="javascript:void(0)">
-                                <i class="zmdi zmdi-image l-parpl"></i>                    
+                                <i class="zmdi zmdi-image l-parpl"></i>
                                 <div class="info">
-                                    <h4>MG_4145.jpg</h4>                    
+                                    <h4>MG_4145.jpg</h4>
                                     <small>5.6MB</small>
                                 </div>
                             </a>
                         </li>
                         <li>
                             <a href="javascript:void(0)">
-                                <i class="zmdi zmdi-image l-parpl"></i>                    
+                                <i class="zmdi zmdi-image l-parpl"></i>
                                 <div class="info">
-                                    <h4>MG_4100.jpg</h4>                    
+                                    <h4>MG_4100.jpg</h4>
                                     <small>5MB</small>
                                 </div>
                             </a>
                         </li>
                         <li>
                             <a href="javascript:void(0)">
-                                <i class="zmdi zmdi-collection-text l-amber"></i>                    
+                                <i class="zmdi zmdi-collection-text l-amber"></i>
                                 <div class="info">
-                                    <h4>Reports_end.doc</h4>                    
+                                    <h4>Reports_end.doc</h4>
                                     <small>780KB</small>
                                 </div>
                             </a>
                         </li>
                         <li>
                             <a href="javascript:void(0)">
-                                <i class="zmdi zmdi-videocam l-turquoise"></i>                    
+                                <i class="zmdi zmdi-videocam l-turquoise"></i>
                                 <div class="info">
-                                    <h4>movie2018.MKV</h4>                    
+                                    <h4>movie2018.MKV</h4>
                                     <small>750MB</small>
                                 </div>
                             </a>
-                        </li>                        
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -809,7 +809,7 @@
                 <li><img src="../assets/images/xs/avatar4.jpg" alt="Avatar"></li>
                 <li><img src="../assets/images/xs/avatar6.jpg" alt="Avatar"></li>
                 <li><a href="javascript:void(0);" title="Add Member"><i class="zmdi zmdi-plus-circle"></i></a></li>
-            </ul>                       
+            </ul>
         </div>
         <div class="body">
             <div class="chat-widget">
@@ -818,7 +818,7 @@
                     <img src="../assets/images/xs/avatar3.jpg" class="rounded-circle" alt="">
                     <div class="chat-info">
                         <a class="name" href="javascript:void(0);">Alexander</a>
-                        <span class="datetime">6:12</span>                            
+                        <span class="datetime">6:12</span>
                         <span class="message">Hello, John </span>
                     </div>
                 </li>
@@ -851,10 +851,10 @@
 
 <div id="content">
 
-    @yield('content')  
+    @yield('content')
 </div>
 
-<!-- Jquery Core Js --> 
+<!-- Jquery Core Js -->
 <script src="{{URL::asset('assets/bundles/libscripts.bundle.js')}}"></script>
 <script src="{{URL::asset('assets/bundles/vendorscripts.bundle.js')}}"></script>
 <script src="{{URL::asset('assets/plugins/dropzone/dropzone.js')}}"></script>
