@@ -30,10 +30,10 @@ class CreateCustomersTable extends Migration
             $table->timestamps();
             $table->string('Owners');
             $table->string('Address');
-            $table->integer('Frequent Flyer Number');
+            $table->biginteger('Frequent Flyer Number');
             $table->string('Room Preference');
             $table->string('Seat Preference');
-            $table->string('Role'); 
+            
             
   
         });
