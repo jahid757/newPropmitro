@@ -28,6 +28,14 @@ class CreateCustomersTable extends Migration
             $table->string('insta')->nullable();
             $table->string('linkedin')->nullable();
             $table->timestamps();
+            $table->string('Owners');
+            $table->string('Address');
+            $table->biginteger('Frequent Flyer Number');
+            $table->string('Room Preference');
+            $table->string('Seat Preference');
+            
+            
+  
         });
     }
 
