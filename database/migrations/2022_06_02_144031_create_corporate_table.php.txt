@@ -1,0 +1,46 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateCorporateTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('Corporate', function (Blueprint $table) {
+            $table->id();
+            $table->string('Name');
+            $table->string('Email')->unique();
+            $table->string('Admin');
+            $table->bigInteger('Phone');
+            $table->string('Address');
+            $table->boolean('Credit');
+            $table->float('GST');
+            $table->boolean('Agreement Status');
+            $table->timestamp('Credit Period');
+            $table->string('Agreement Copy');
+            $table->string('Owners');
+            $table->string('Address');
+            $table->string('Room Preference');
+            $table->string('Seat Preference');
+            $table->string('Role');
+            $table->timestamp();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('corporate');
+    }
+}
